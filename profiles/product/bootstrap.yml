@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: prod
+  cloud:
+    config:
+      label: develop
+      profile: prod
