@@ -9,5 +9,5 @@ spring:
       server:
         git:
           uri: https://github.com/EmpKixs/configdemo.git
-          search-paths: config-repo/${spring:profiles:active}
+          search-paths: config-repo/test
           passphrase: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCueKLDbGjplFy9IFPvf4K8vFQ13fvGmfDpkkHJHEim95KFEXJFesMDpe9GjCnpEoEWH+izKLnA/Kkgiizf7HAgzlbjb+yg/mfv0c+QXkyEJrLp19B0b7DzhNFHflihux9TD7oAmQ6MNjP50GGts2owiJZrfNPncR2bfuiTnjHHdB+iR1uH1/uxRt/GkoixXh9NiqUTFMPRdMW9sF68F4CIvkZ/XnertMhn1db1g+vUEJsTvIwKOV4f4BB+JOUmZhSQbchNrj/PtSjRPhhiN2veHQAd9UlhOn0ks82ct2EN+sC/g0UaPAyMSlPev/KYx7iF9KXgy0x3ioI5sFlMFcmv emp_kixs@163.com

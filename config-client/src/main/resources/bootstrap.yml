@@ -3,6 +3,6 @@ spring:
     name: config-client
   cloud:
     config:
-      profile: ${spring:cloud:config:profile}
-      label: ${spring:cloud:config:label}
+      profile: @spring.cloud.config.profile@
+      label: @spring.cloud.config.label@
       uri: http://localhost:8000
