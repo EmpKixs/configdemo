@@ -74,7 +74,7 @@
         </testResources>
 
         <filters>
-            <filter>${project.basedir}/../profiles/${config.env}/bootstrap.properties</filter>
+            <filter>${project.basedir}/../profiles/${config.env}/bootstrap.yml</filter>
         </filters>
     </build>
 
