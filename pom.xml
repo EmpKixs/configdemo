@@ -26,9 +26,15 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
-
-        <resource.delimiter>%</resource.delimiter>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>1.10</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <pluginManagement>
@@ -53,6 +59,7 @@
                             <nonFilteredFileExtension>pfx</nonFilteredFileExtension>
                             <nonFilteredFileExtension>p12</nonFilteredFileExtension>
                         </nonFilteredFileExtensions>
+                        <useDefaultDelimiters>true</useDefaultDelimiters>
                     </configuration>
                 </plugin>
 
