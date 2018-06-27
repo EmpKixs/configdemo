@@ -28,14 +28,6 @@
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.yaml</groupId>
-            <artifactId>snakeyaml</artifactId>
-            <version>1.10</version>
-        </dependency>
-    </dependencies>
-
     <build>
         <pluginManagement>
             <plugins>
